@@ -4,13 +4,13 @@ Date: Fri, 20 Nov 2020 19:39:20 -0800
 Subject: [PATCH] ath_regd_optional
 
 ---
- drivers/net/wireless/ath/regd.c | 9 +++++++++
+ regd.c | 9 +++++++++
  1 file changed, 9 insertions(+)
 
-diff --git a/drivers/net/wireless/ath/regd.c b/drivers/net/wireless/ath/regd.c
+diff --git a/regd.c b/regd.c
 index bee9110b91f3..6c716ad9cc49 100644
---- a/drivers/net/wireless/ath/regd.c
-+++ b/drivers/net/wireless/ath/regd.c
+--- a/regd.c
++++ b/regd.c
 @@ -345,6 +345,8 @@ ath_reg_apply_beaconing_flags(struct wiphy *wiphy,
  	struct ieee80211_channel *ch;
  	unsigned int i;
